@@ -19,8 +19,8 @@ function sendEmail(name) {
     return new Promise(function (resolve) {
         console.log("Sending verification email in progress...");
 
-        const progress = 0;
-        const interval = setInterval(function () {
+        let progress = 0;
+        let interval = setInterval(function () {
             progress += 1;
             console.log(`Email progress: ${progress}`);
 

@@ -1,0 +1,112 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #0b1120;
+    color: #fff;
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+      
+
+form h1{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+   border: 2px solid #01fffc;
+   width: 25%;
+   border-radius: 8px;
+   padding: 25px;
+   margin: auto;
+   
+   
+}
+.form-details{
+    margin: auto;
+}
+label{
+    display: block;
+    text-transform:capitalize;
+
+}
+.input{
+    padding: 10px;
+}
+input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+.input label{
+    padding-bottom: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+}
+.section{
+   padding: 10px;
+   margin: auto;
+}
+.section .btns{
+    display: flex;
+    justify-content: space-between;
+    gap: 90px;
+    
+    align-items: center;
+}
+.submit {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 2px solid #4f2f18;
+    color: #fff;
+    background-color: #0b1120;
+    text-transform: uppercase;
+}
+.btns a{
+    color: #05d5d5;
+    font-weight: bold;
+    text-decoration: none;
+   
+}
+.section .access ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    padding-top: 30px;
+   margin: auto;
+   list-style: none;
+   color: #9907a0;
+   font-size: 14px;
+   font-weight: bold;
+}
+.section .footers ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    padding-top: 30px;
+   margin: auto;
+   list-style: none;
+   text-transform: capitalize;
+   color: #05d5d5
+   
+}
+.section .footers ul li{
+    font-size: 14px;
+   font-weight: bold;
+}
+
